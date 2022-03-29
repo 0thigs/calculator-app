@@ -9,6 +9,7 @@ body {
     background-image: linear-gradient(to right, blueviolet, rgb(50, 13, 85));
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -26,6 +27,25 @@ main {
     font-family: 'Bebas Neue', cursive;
     -webkit-box-shadow: 13px 9px 15px 5px #000000, 13px 9px 15px 5px #000000; 
     box-shadow: 13px 9px 30px 5px #000000;
+}
+
+footer {
+    display: flex;
+    justify-content: center; 
+    font-family: 'Bebas Neue', cursive;
+    width: 100vw;
+    height: 20px;
+    padding-top: 20px;
+}
+
+span {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color:#000000;
+    text-decoration: none;
 }
 
 .line {

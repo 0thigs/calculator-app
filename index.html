@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title></head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+<body >
+    
+    <main id="main">
+        <div class="input">
+            <input type="text" name="ola" id="input" value="">
+        </div>
+        <div class="line">
+            <div class="values" id="clear" onclick="Clear()">C</div>
+            <div class="values" id="divisao" onclick="GetNum(1)">/</div>
+            <div class="values" id="resto" onclick="GetNum(2)">%</div>
+            <div class="values" id="igual" onclick="Equal()">=</div>
+        </div>
+        <div class="line">
+            <div class="values" id="sete" onclick="GetNum(4)">7</div>
+            <div class="values" id="oito" onclick="GetNum(5)">8</div>
+            <div class="values" id="nove" onclick="GetNum(6)">9</div>
+            <div class="values" id="mais" onclick="GetNum(7)">+</div>
+        </div>
+        <div class="line">
+            <div class="values" id="quatro" onclick="GetNum(8)">4</div>
+            <div class="values" id="cinco" onclick="GetNum(9)">5</div>
+            <div class="values" id="seis" onclick="GetNum(10)">6</div>
+            <div class="values" id="mult" onclick="GetNum(11)">*</div>
+        </div>
+        <div class="line">
+            <div class="values" id="um" onclick="GetNum(12)">1</div>
+            <div class="values" id="dois" onclick="GetNum(13)">2</div>
+            <div class="values" id="tres" onclick="GetNum(14)">3</div>
+            <div class="values" id="menos" onclick="GetNum(15)">-</div>
+        </div>
+        <div class="line">
+            <div class="values" id="zero" onclick="GetNum(16)">0</div>
+            <div class="values" id="ponto" onclick="GetNum(17)">.</div>
+        </div>
+        </div>
+    </main>
+
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, blueviolet, rgb(50, 13, 85));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    background-color: black;
+    width: 25rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 6px #BF0426;
+    font-family: 'Anton', sans-serif;   
+    font-family: 'Bebas Neue', cursive;
+    -webkit-box-shadow: 13px 9px 15px 5px #000000, 13px 9px 15px 5px #000000; 
+    box-shadow: 13px 9px 30px 5px #000000;
+}
+
+.line {
+    display: flex;
+    height: 100px;
+}
+.values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #BF0426;
+    font-size: 50px;
+    color: black; 
+    width: 100px;
+    height: 100px;
+    color: white; 
+    cursor: pointer;
+}
+
+.values:hover {
+    color: red;
+    background-color: rgb(19, 19, 19);
+}
+
+input {
+    height: 130px;
+    width: 23rem;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.input {
+    background-color: black;
+    height: 140px;   
+}
+
+#clear {
+    background-color: rgb(131, 2, 2);
+}
+
+#igual { 
+    background-color: green;
+}
+
+#zero {
+    width: 200px;
+}
+
+#ponto {
+    width: 200px;
+}
